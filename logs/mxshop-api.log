@@ -1,0 +1,1130 @@
+2024-06-28 15:09:17.480	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 15:09:17.480	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 15:09:17.480	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 15:09:17.502	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 15:09:17.512	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 15:09:17.512	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 15:09:17.512	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 15:09:17.512	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 15:10:43.299	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"86ca4bd4-351d-11ef-9c98-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 15:11:15.345	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 15:11:15.350	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 15:11:15.351	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 16:30:40.577	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 16:30:40.578	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 16:30:40.578	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 16:30:40.585	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"ac19de30-3528-11ef-b151-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 16:30:40.593	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 16:30:40.608	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 16:30:40.608	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 16:30:40.608	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 16:30:40.608	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 16:30:40.609	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 16:37:29.243	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 16:37:48.516	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 16:48:17.282	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 16:50:16.110	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 16:50:24.311	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 16:51:09.782	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 16:54:24.655	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 16:54:24.659	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 16:54:24.660	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 16:54:31.510	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 16:54:31.510	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 16:54:31.510	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 16:54:31.517	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 16:54:31.517	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 16:54:31.517	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 16:54:31.539	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 16:54:31.521	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"ac19de30-3528-11ef-b151-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 16:54:31.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 16:54:31.540	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 16:54:48.336	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"101c5b8a-352c-11ef-a868-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 16:58:02.406	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 16:59:41.189	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:06:29.044	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 17:06:29.049	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 17:06:29.049	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 17:06:35.436	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:06:35.436	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:06:35.436	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:06:35.438	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:06:35.438	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:06:35.438	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:06:35.445	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"101c5b8a-352c-11ef-a868-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:06:35.465	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 17:06:35.466	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:07:08.549	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:07:43.114	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"de5eac22-352d-11ef-a1ab-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:07:51.636	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 17:07:51.642	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 17:07:51.642	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 17:07:59.913	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:07:59.914	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:07:59.914	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:07:59.916	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:07:59.916	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:07:59.916	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:07:59.932	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"de5eac22-352d-11ef-a1ab-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:08:41.766	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:08:41.766	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:08:41.766	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:08:41.768	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:08:41.768	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:08:41.768	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:08:41.773	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"de5eac22-352d-11ef-a1ab-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:08:41.792	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:08:41.793	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:08:53.391	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:09:33.311	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:10:31.556	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:10:31.556	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:10:31.556	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:10:31.558	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:10:31.558	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:10:31.558	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:10:31.564	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"de5eac22-352d-11ef-a1ab-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:10:31.581	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:10:31.582	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:10:43.430	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:13:47.561	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:13:47.562	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:13:47.562	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:13:47.564	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:13:47.564	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:13:47.564	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:13:47.586	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 17:13:47.587	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:13:50.364	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"b89c1550-352e-11ef-a15f-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:15:17.676	[35mDEBUG[0m	storage/redis_cluster.go:523	[STORE] SET Raw key is: 18820954882
+2024-06-28 17:15:17.677	[35mDEBUG[0m	storage/redis_cluster.go:524	[STORE] Setting key: 18820954882
+2024-06-28 17:17:36.899	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:23:38.347	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 17:23:38.352	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 17:23:38.352	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 17:23:42.763	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:23:42.763	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:23:42.764	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:23:42.783	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"b89c1550-352e-11ef-a15f-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:23:42.790	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:23:42.801	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:23:42.801	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:23:42.801	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 17:23:42.801	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 17:23:42.802	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 17:23:42.802	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:24:18.746	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 17:24:18.750	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 17:24:18.750	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 17:24:23.603	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:24:23.604	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:24:23.604	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:24:23.605	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:24:23.605	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:24:23.605	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:24:23.629	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:24:23.629	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 17:24:23.630	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:24:27.445	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"36ae7176-3530-11ef-b564-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:27:46.281	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 17:27:46.284	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 17:27:46.284	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 17:27:51.733	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:27:51.733	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:27:51.733	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:27:51.738	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:27:51.738	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:27:51.738	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:27:51.740	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"36ae7176-3530-11ef-b564-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:27:51.762	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:27:51.762	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:28:03.535	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:28:44.416	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:29:23.502	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:29:23.502	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:29:23.502	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:29:23.505	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:29:23.506	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:29:23.506	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:29:23.519	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"36ae7176-3530-11ef-b564-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:29:23.538	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:29:23.538	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 17:29:23.539	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:29:24.518	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:29:25.993	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:29:39.656	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:29:40.244	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:30:18.299	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:30:27.387	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 17:30:27.392	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 17:30:27.392	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 17:30:36.194	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:30:36.195	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:30:36.195	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:30:36.199	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 17:30:36.199	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 17:30:36.199	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 17:30:36.205	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"36ae7176-3530-11ef-b564-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 17:30:36.224	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 17:30:36.224	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 17:30:39.936	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:30:46.734	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:30:47.303	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:30:47.693	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 17:35:07.246	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:08.252	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:17.246	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:20.252	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:27.246	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:29.248	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:37.241	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:37.241	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:47.243	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:48.245	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:57.244	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:35:58.249	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:07.245	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:07.245	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:17.245	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:21.248	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:27.245	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:31.248	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:37.243	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:38.249	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:47.242	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:49.248	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:36:57.244	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:37:00.247	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:37:07.244	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:37:08.250	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:37:17.242	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:37:20.243	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:37:27.244	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:131c1ce4-3531-11ef-97f6-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 17:37:29.249	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-28 18:47:27.967	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 18:47:27.967	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 18:47:27.967	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 18:47:27.982	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"3bd82a92-353b-11ef-82f6-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 18:47:27.996	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 18:47:28.003	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 18:47:28.003	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 18:47:28.003	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-28 18:47:28.004	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 18:47:35.680	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-28 18:47:35.684	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-28 18:47:35.684	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-28 18:47:55.933	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 18:47:55.933	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 18:47:55.933	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 18:47:55.936	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 18:47:55.936	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 18:47:55.936	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 18:47:55.941	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"3bd82a92-353b-11ef-82f6-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 18:47:55.960	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 18:47:55.960	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:47:55.962	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 18:48:14.286	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 18:49:09.720	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 18:50:00.637	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 18:50:00.637	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 18:50:00.637	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 18:50:00.639	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-28 18:50:00.639	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-28 18:50:00.639	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-28 18:50:00.643	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"3bd82a92-353b-11ef-82f6-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-28 18:50:00.662	[34mINFO[0m	app/app.go:138	start server
+2024-06-28 18:50:00.662	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-28 18:50:00.663	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-28 18:50:17.374	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-28 18:53:36.498	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"aaf9a1f2-353c-11ef-9d53-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.104:8050"]}]
+2024-06-29 08:27:17.398	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:27:17.398	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:27:17.398	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:27:17.418	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:27:17.418	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:27:17.418	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:27:17.419	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"2afc2a48-35ae-11ef-8c9c-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:27:17.436	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 08:27:17.436	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:27:17.437	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 08:28:15.595	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 08:30:04.993	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 08:30:04.997	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 08:30:04.997	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 08:30:06.273	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:30:06.273	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:30:06.273	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:30:06.300	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 08:30:06.301	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:06.301	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:06.301	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:06.301	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:06.301	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:06.301	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:06.301	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:06.283	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"2afc2a48-35ae-11ef-8c9c-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:30:06.286	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:30:06.304	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:30:06.304	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:30:06.304	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:06.304	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:06.304	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:06.304	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:06.308	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:06.308	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 08:30:20.736	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 08:30:36.674	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 08:30:36.679	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 08:30:36.679	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 08:30:39.813	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:30:39.813	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:30:39.813	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:30:39.815	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:30:39.815	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:30:39.815	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:30:39.819	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"2afc2a48-35ae-11ef-8c9c-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:30:39.839	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:39.839	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:39.840	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:39.840	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 08:30:44.455	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 08:30:51.948	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 08:30:51.953	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 08:30:51.954	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 08:30:53.186	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:30:53.186	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:30:53.186	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:30:53.190	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:30:53.190	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:30:53.190	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:30:53.196	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"2afc2a48-35ae-11ef-8c9c-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:30:53.214	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:30:53.214	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 08:31:25.475	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 08:36:20.935	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"9a797172-35af-11ef-8e6e-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:36:29.924	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 08:36:29.927	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 08:36:29.927	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 08:36:31.053	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:36:31.053	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:36:31.053	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:36:31.054	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:36:31.054	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:36:31.054	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:36:31.062	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"9a797172-35af-11ef-8e6e-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:36:31.081	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:36:31.081	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 08:36:36.356	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 08:37:08.722	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 08:37:08.730	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 08:37:08.730	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 08:37:54.768	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:37:54.769	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:37:54.769	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:37:54.770	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:37:54.770	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:37:54.770	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:37:54.780	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"9a797172-35af-11ef-8e6e-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:37:54.799	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:37:54.799	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 08:37:59.721	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 08:49:00.948	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"5c1ef85a-35b1-11ef-81e9-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:50:10.505	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 08:50:10.510	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 08:50:10.512	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 08:50:17.072	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:50:17.072	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:50:17.072	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:50:17.076	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:50:17.076	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:50:17.076	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:50:17.093	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"5c1ef85a-35b1-11ef-81e9-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 08:50:17.111	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 08:50:17.111	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 08:53:13.541	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 08:53:13.546	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 08:53:13.546	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 08:53:14.816	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:53:14.817	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:53:14.817	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:53:14.818	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 08:53:14.818	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 08:53:14.818	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 08:53:14.841	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 08:53:14.841	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 08:53:14.842	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 08:57:04.820	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 08:57:04.825	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 08:57:04.825	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 09:03:55.374	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:03:55.374	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:03:55.374	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:03:55.384	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"6e40da1a-35b3-11ef-8880-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 09:03:55.391	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:03:55.403	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:03:55.403	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:03:55.403	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 09:03:55.403	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 09:03:58.868	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:04:28.756	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 09:04:28.770	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 09:04:28.770	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 09:04:30.112	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:04:30.113	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:04:30.113	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:04:30.115	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:04:30.115	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:04:30.115	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:04:30.128	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"6e40da1a-35b3-11ef-8880-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 09:04:30.147	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:04:30.149	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 09:04:33.715	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:04:47.022	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:04:48.110	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:04:48.753	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:04:49.486	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:08:32.419	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 09:08:32.422	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 09:08:32.423	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 09:08:33.210	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:08:33.211	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:08:33.211	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:08:33.225	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:08:33.250	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:08:33.250	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:08:33.250	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 09:08:33.250	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 09:08:34.227	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"17a752be-35b4-11ef-b46e-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 09:08:47.039	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:40.720	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:41.551	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:42.240	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:42.863	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:43.381	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:44.106	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:44.735	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:45.368	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:45.864	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:46.398	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:46.868	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:50.644	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:51.459	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:09:52.180	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:10:39.480	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"6575b6fc-35b4-11ef-b306-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 09:12:05.011	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 09:12:05.015	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 09:12:05.015	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 09:13:27.981	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:13:27.981	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:13:27.981	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:13:27.983	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:13:27.983	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:13:27.983	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:13:27.989	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"c6b7833c-35b4-11ef-9f56-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 09:13:28.007	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 09:13:28.008	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 09:13:36.016	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:13:37.456	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:13:38.744	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:13:39.489	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:13:40.109	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:13:40.703	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:14:26.407	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:17:04.074	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:17:05.234	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:17:05.856	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:17:06.145	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:17:09.620	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:17:10.198	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:17:10.749	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:17:11.391	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:18:29.999	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 09:18:30.006	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 09:18:30.006	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 09:18:31.366	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:18:31.367	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:18:31.367	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:18:31.369	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:18:31.369	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:18:31.369	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:18:31.375	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"c6b7833c-35b4-11ef-9f56-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 09:18:31.393	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:18:31.393	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 09:18:48.540	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"8679737e-35b5-11ef-a904-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 09:18:55.023	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:19:19.903	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 09:19:19.909	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 09:19:19.909	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 09:19:20.966	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:19:20.966	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:19:20.966	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:19:20.973	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 09:19:20.973	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 09:19:20.973	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 09:19:20.976	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"8679737e-35b5-11ef-a904-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 09:19:20.993	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 09:19:20.994	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 09:19:20.995	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 09:19:22.700	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:19:41.110	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 09:20:24.087	[33mWARN[0m	storage/redis_cluster.go:127	Error trying to get test key: redis: nil
+2024-06-29 09:21:39.391	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 09:21:39.395	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 09:21:39.395	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:19:13.079	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:19:13.079	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:19:13.079	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:19:13.087	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"ee06a0e0-35bd-11ef-90c0-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:19:13.095	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:19:13.114	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:19:13.114	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:19:13.114	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:19:13.114	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 10:19:13.115	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:19:29.773	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:26:00.243	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:26:00.248	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:26:00.249	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:26:04.230	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:26:04.230	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:26:04.230	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:26:04.233	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:26:04.233	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:26:04.233	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:26:04.238	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"ee06a0e0-35bd-11ef-90c0-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:26:04.267	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:26:04.268	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:26:14.095	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:27:15.068	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:27:15.071	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:27:15.071	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:27:16.315	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:27:16.315	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:27:16.315	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:27:16.327	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"ee06a0e0-35bd-11ef-90c0-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:27:16.344	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:27:16.331	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:27:16.344	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:27:16.344	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:27:16.345	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:27:16.346	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:27:16.346	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:27:16.346	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:27:18.799	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:31:58.845	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:31:58.854	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:31:58.854	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:41:48.681	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:41:48.681	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:41:48.681	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:41:48.695	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"1e172450-35c1-11ef-9d20-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:41:48.703	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:41:48.716	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:41:48.716	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:41:48.716	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 10:41:48.716	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:43:21.756	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:43:21.763	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:43:21.764	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:43:25.344	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:43:25.344	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:43:25.344	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:43:25.346	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:43:25.346	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:43:25.346	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:43:25.353	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"1e172450-35c1-11ef-9d20-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:43:25.372	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 10:43:25.373	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:46:24.555	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"c1e8a66c-35c1-11ef-b53c-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:47:12.763	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:47:19.666	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"e14f6cac-35c1-11ef-8e89-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:51:11.142	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"6e3fa60e-35c2-11ef-9dbd-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:51:17.416	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:51:18.264	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"73913ef6-35c2-11ef-8943-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:51:51.821	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:51:51.828	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:51:51.828	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:51:55.497	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:51:55.497	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:51:55.497	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:51:55.501	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:51:55.501	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:51:55.502	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:51:55.504	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"73913ef6-35c2-11ef-8943-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:51:55.523	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:51:55.523	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:51:55.524	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:51:55.524	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:51:55.524	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:51:55.524	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:51:55.524	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:51:55.524	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:51:55.524	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:51:55.524	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:51:55.525	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:51:55.525	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:51:55.525	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:51:55.525	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:52:17.075	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:52:17.079	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:52:17.079	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:52:18.316	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:52:18.316	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:52:18.316	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:52:18.320	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:52:18.320	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:52:18.320	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:52:18.322	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"73913ef6-35c2-11ef-8943-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:52:18.341	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:52:18.341	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:18.342	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:52:34.449	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:52:34.452	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:52:34.452	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:52:35.629	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:52:35.629	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:52:35.629	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:52:35.630	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:52:35.630	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:52:35.630	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:52:35.635	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"73913ef6-35c2-11ef-8943-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:52:35.653	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:52:35.653	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:35.653	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:35.653	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:35.653	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:52:35.654	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:52:37.389	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:53:27.134	[33mWARN[0m	storage/redis_cluster.go:127	Error trying to get test key: redis: nil
+2024-06-29 10:54:20.700	[33mWARN[0m	storage/redis_cluster.go:127	Error trying to get test key: redis: nil
+2024-06-29 10:54:20.706	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:54:20.710	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:54:20.710	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:54:27.216	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:54:27.216	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:54:27.216	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:54:27.218	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:54:27.218	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:54:27.218	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:54:27.224	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"73913ef6-35c2-11ef-8943-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:54:27.245	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 10:54:27.245	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 10:54:27.246	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 10:54:27.246	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 10:54:27.246	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 10:54:27.246	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:54:31.944	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:54:38.205	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:54:38.209	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:54:38.209	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:54:41.482	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:54:41.482	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:54:41.482	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:54:41.483	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:54:41.483	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:54:41.483	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:54:41.490	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"73913ef6-35c2-11ef-8943-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:54:41.510	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:54:41.511	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:54:44.806	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:57:43.970	[33mWARN[0m	storage/redis_cluster.go:127	Error trying to get test key: redis: nil
+2024-06-29 10:57:43.977	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:57:43.981	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:57:43.981	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:57:45.419	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:57:45.419	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:57:45.419	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:57:45.426	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"73913ef6-35c2-11ef-8943-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:57:45.446	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:57:45.446	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:57:45.447	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:57:45.447	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:57:45.447	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:57:45.447	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:57:45.460	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:57:45.460	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:57:45.460	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:57:48.388	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:58:01.248	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 10:58:01.252	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 10:58:01.252	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 10:58:02.364	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:58:02.365	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:58:02.365	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:58:02.373	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 10:58:02.374	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 10:58:02.374	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 10:58:02.378	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"73913ef6-35c2-11ef-8943-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 10:58:02.397	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> github.com/gin-gonic/gin.WrapF.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> github.com/gin-gonic/gin.WrapH.func1(6 handlers)
+2024-06-29 10:58:02.397	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 10:58:03.124	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 10:58:23.122	[33mWARN[0m	storage/redis_cluster.go:127	Error trying to get test key: redis: nil
+2024-06-29 11:01:01.661	[33mWARN[0m	storage/redis_cluster.go:127	Error trying to get test key: redis: nil
+2024-06-29 11:01:13.377	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 11:01:13.381	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 11:01:13.382	[34mINFO[0m	restserver/server.go:120	rest server stopped
+2024-06-29 11:01:14.108	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 11:01:14.108	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 11:01:14.108	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 11:01:14.111	[35mDEBUG[0m	storage/redis_cluster.go:98	Connecting to redis cluster
+2024-06-29 11:01:14.111	[35mDEBUG[0m	storage/redis_cluster.go:187	Creating new Redis connection pool
+2024-06-29 11:01:14.111	[34mINFO[0m	storage/redis_cluster.go:230	--> [REDIS] Creating single-node client
+2024-06-29 11:01:14.132	[34mINFO[0m	app/app.go:138	start server
+2024-06-29 11:01:14.132	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/ --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func1(6 handlers)
+2024-06-29 11:01:14.132	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/cmdline --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func2(6 handlers)
+2024-06-29 11:01:14.132	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/profile --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func3(6 handlers)
+2024-06-29 11:01:14.132	[34mINFO[0m	restserver/server.go:81	POST   /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func4(6 handlers)
+2024-06-29 11:01:14.132	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/symbol --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func5(6 handlers)
+2024-06-29 11:01:14.132	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/trace --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapF.func6(6 handlers)
+2024-06-29 11:01:14.133	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/allocs --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func7(6 handlers)
+2024-06-29 11:01:14.133	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/block --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func8(6 handlers)
+2024-06-29 11:01:14.133	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/goroutine --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func9(6 handlers)
+2024-06-29 11:01:14.133	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/heap --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func10(6 handlers)
+2024-06-29 11:01:14.133	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/mutex --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func11(6 handlers)
+2024-06-29 11:01:14.133	[34mINFO[0m	restserver/server.go:81	GET    /debug/pprof/threadcreate --> mxshop/gmicro/server/restserver/pprof.RouteRegister.WrapH.func12(6 handlers)
+2024-06-29 11:01:14.133	[34mINFO[0m	restserver/server.go:98	rest server is running on 8051
+2024-06-29 11:01:15.617	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"d620345e-35c3-11ef-a409-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 11:01:19.039	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 11:02:31.118	[34mINFO[0m	discovery/resolver.go:83	[resolver] update instances: [{"id":"057b8c30-35c4-11ef-911c-1e006222a369","name":"mxshop-user-srv","version":"","metadata":null,"endpoints":["grpc://192.168.0.105:8050"]}]
+2024-06-29 11:03:04.960	[34mINFO[0m	v1/login.go:18	Login is called
+2024-06-29 11:03:49.785	[34mINFO[0m	app/app.go:179	Deregister service
+2024-06-29 11:03:49.790	[34mINFO[0m	restserver/server.go:113	rest server is stopping
+2024-06-29 11:03:49.790	[34mINFO[0m	restserver/server.go:120	rest server stopped
