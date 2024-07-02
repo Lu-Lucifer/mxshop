@@ -6,5 +6,12 @@ package code
 
 // init register error codes defines in this source code to `imooc/mxshop/pkg/errors`
 func init() {
+	register(ErrConnectDB, 500, "Connect db error")
+	register(ErrGoodsNotFound, 404, "Goods not found")
 	register(ErrUserNotFound, 404, "User not found")
+	register(ErrUserAlreadyExists, 400, "User already exists")
+	register(ErrPasswordIncorrect, 400, "Password is incorrect")
+	register(ErrSmsSend, 400, "Send sms error")
+	register(ErrCodeNotExist, 404, "Sms code incorrect or expired")
+	register(ErrCodeIncorrect, 400, "Sms code incorrect")
 }

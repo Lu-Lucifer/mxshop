@@ -22,7 +22,7 @@ type UserDTO struct {
 type UserSrv interface {
 	MobileLogin(ctx context.Context, mobile, password string) (*UserDTO, error)
 	Register(ctx context.Context, mobile, password, codes string) (*UserDTO, error)
-	Update(ctx context.Context, uerDTO *UserDTO) (*UserDTO, error)
+	Update(ctx context.Context, uerDTO *UserDTO) error
 	Get(ctx context.Context, userID uint64) (*UserDTO, error)
 	GetByMobile(ctx context.Context, mobile string) (*UserDTO, error)
 	CheckPassword(ctx context.Context, password, EncryptedPassword string) (bool, error)
@@ -120,8 +120,17 @@ func (u *userService) Register(ctx context.Context, mobile, password, codes stri
 
 }
 
-func (u *userService) Update(ctx context.Context, uerDTO *UserDTO) (*UserDTO, error) {
-	return nil, nil
+func (u *userService) Update(ctx context.Context, uerDTO *UserDTO) error {
+	err := u.ud.Update(ctx, &data.User{
+		ID:       uerDTO.ID,
+		NickName: uerDTO.NickName,
+		Birthday: uerDTO.Birthday,
+		Gender:   uerDTO.Gender,
+	})
+	if err != nil {
+		return err
+	}
+	return nil
 }
 
 func (u *userService) Get(ctx context.Context, userID uint64) (*UserDTO, error) {
@@ -130,19 +139,18 @@ func (u *userService) Get(ctx context.Context, userID uint64) (*UserDTO, error) 
 		return nil, err
 	}
 	return &UserDTO{
-		User: data.User{
-			ID:       user.ID,
-			Mobile:   user.Mobile,
-			NickName: user.NickName,
-			Role:     user.Role,
-			Gender:   user.Gender,
-			Birthday: user.Birthday,
-		},
+		User: *user,
 	}, nil
 }
 
 func (u *userService) GetByMobile(ctx context.Context, mobile string) (*UserDTO, error) {
-	return nil, nil
+	user, err := u.ud.GetByMobile(ctx, mobile)
+	if err != nil {
+		return nil, err
+	}
+	return &UserDTO{
+		User: *user,
+	}, nil
 }
 
 func (u *userService) CheckPassword(ctx context.Context, password, EncryptedPassword string) (bool, error) {

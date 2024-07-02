@@ -434,3 +434,168 @@
 2024-06-29 11:03:09.390	[31mERROR[0m	trace/agent.go:64	[otel] error :<nil>
 2024-06-29 11:03:49.785	[34mINFO[0m	app/app.go:179	Deregister service
 2024-06-29 11:03:49.792	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 15:47:14.444	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 15:47:14.444	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 15:57:53.415	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 15:57:53.423	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 15:57:56.444	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 15:57:56.444	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 15:57:58.896	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 15:57:58.902	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 15:57:59.456	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 15:57:59.456	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 16:11:59.444	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 16:12:00.027	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 16:12:14.466	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 16:12:15.040	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 16:13:26.769	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 16:13:27.659	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 16:13:30.096	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 16:22:20.454	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:4d6e551c-35ed-11ef-af95-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-29 16:22:23.461	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-29 16:22:30.454	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:4d6e551c-35ed-11ef-af95-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-29 16:22:31.462	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-29 16:22:40.453	[31mERROR[0m	consul/client.go:230	[Consul] update ttl heartbeat to consul failed! err=Put "http://127.0.0.1:8500/v1/agent/check/update/service:4d6e551c-35ed-11ef-af95-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-29 16:22:42.459	[31mERROR[0m	consul/client.go:234	[Consul] re registry service failed!, err=Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-29 16:22:42.536	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 16:22:42.537	[31mERROR[0m	app/app.go:187	deregister service error:Put "http://127.0.0.1:8500/v1/agent/service/deregister/4d6e551c-35ed-11ef-af95-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-29 16:22:42.539	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 16:22:42.539	[31mERROR[0m	srv/app.go:40	run user app error: Put "http://127.0.0.1:8500/v1/agent/service/deregister/4d6e551c-35ed-11ef-af95-1e006222a369": dial tcp 127.0.0.1:8500: connect: connection refused
+2024-06-29 17:02:13.732	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 17:02:13.732	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 17:02:41.219	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 17:02:41.226	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 17:02:58.161	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 17:02:58.161	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 17:05:57.829	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:05:57.848	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:05:57.850	[31mERROR[0m	user/update.go:30	update user: {{{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: User not found
+2024-06-29 17:05:58.256	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:08:41.071	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:08:43.367	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:09:26.513	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:09:26.519	[31mERROR[0m	user/update.go:30	update user: {{{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: User not found
+2024-06-29 17:09:28.401	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:10:10.817	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:10:13.431	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:12:17.836	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:12:17.846	[31mERROR[0m	user/update.go:30	update user: {{{0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: User not found
+2024-06-29 17:12:18.520	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:12:32.514	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:12:32.517	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:12:32.537	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:12:32.521 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:12:33.531	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:12:35.413	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:12:35.415	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:12:35.418	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:12:35.417 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:12:38.536	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:12:38.903	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:12:38.905	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:12:38.906	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:12:38.906 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:12:43.539	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:15:52.797	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 17:15:52.803	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 17:15:55.936	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 17:15:55.936	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 17:16:00.931	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:16:00.935	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:16:00.938	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:16:00.937 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:16:03.035	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:16:03.036	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:16:03.039	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:16:03.038 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:16:03.887	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:16:03.889	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:16:03.890	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:16:03.89 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:16:05.915	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:18:10.336	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 17:18:10.343	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 17:18:13.849	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 17:18:13.849	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 17:18:23.290	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:18:23.294	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:18:23.298	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:18:23.296 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:18:23.834	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:18:24.057	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:18:24.063	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:18:24.066	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:18:24.065 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:18:25.020	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:18:25.021	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:18:25.023	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:18:25.023 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:18:28.833	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:28:35.261	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 17:28:35.269	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 17:28:41.639	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 17:28:41.640	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 17:28:45.116	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:28:45.121	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:28:46.575	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:48:53.387	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:48:53.398	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:48:57.365	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:49:14.881	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:49:14.892	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:49:17.382	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:49:33.067	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:49:33.075	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:49:37.393	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:49:41.933	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:49:41.939	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:49:42.400	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:49:55.595	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:49:55.602	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:49:57.405	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:50:43.985	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:50:43.991	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:50:47.440	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:50:55.135	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:50:55.141	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:50:57.449	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:51:51.248	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:51:51.250	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:51:51.254	[31mERROR[0m	user/update.go:30	update user: {{{2 <nil> 2024-06-29 17:51:51.252 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:51:52.477	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:52:09.959	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 17:52:09.965	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 17:52:15.637	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 17:52:15.637	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 17:52:30.198	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:52:30.201	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:52:30.203	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:52:30.203 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:52:30.623	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:52:37.778	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:52:37.779	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:52:37.780	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:52:37.78 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:52:40.625	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:53:02.894	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:53:02.900	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:53:02.902	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:53:02.901 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:53:04.374	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 17:53:04.383	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped
+2024-06-29 17:53:05.255	[34mINFO[0m	app/app.go:137	start server
+2024-06-29 17:53:05.255	[34mINFO[0m	rpcserver/server.go:141	[grpc] server listening on: 192.168.0.105:8050
+2024-06-29 17:53:08.627	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:53:08.629	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:53:08.630	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:53:08.63 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:53:09.246	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:53:09.247	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:53:09.249	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:53:09.249 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:53:10.234	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:55:15.507	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:55:15.512	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:55:15.513	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:55:15.513 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:55:18.061	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:55:18.062	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:55:18.063	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:55:18.063 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:55:20.293	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:55:20.888	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:55:20.889	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:55:20.890	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:55:20.89 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:55:25.293	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:56:14.944	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:56:14.956	[34mINFO[0m	user/update.go:17	get user by mobile function called.
+2024-06-29 17:56:14.958	[31mERROR[0m	user/update.go:30	update user: {{{2 0001-01-01 00:00:00 +0000 UTC 2024-06-29 17:56:14.957 +0800 CST {0001-01-01 00:00:00 +0000 UTC false} false}   qiqi 2011-09-18 00:00:00 +0800 CST female 0}},error: Database error
+2024-06-29 17:56:15.320	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:56:22.014	[34mINFO[0m	user/by_id.go:11	get user by id function is called
+2024-06-29 17:56:25.321	[31mERROR[0m	trace/agent.go:65	[otel] error :<nil>
+2024-06-29 17:56:56.012	[34mINFO[0m	app/app.go:177	Deregister service
+2024-06-29 17:56:56.018	[34mINFO[0m	rpcserver/server.go:153	[grpc] server stopped

@@ -1,4 +1,4 @@
-package internal
+package api
 
 import (
 	ginjwt "github.com/appleboy/gin-jwt/v2"
