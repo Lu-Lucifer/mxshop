@@ -25,7 +25,7 @@ func (us *userServer) UpdateUser(ctx *gin.Context) {
 	//先通过userid查找用户
 	userID, _ := ctx.Get(middlewares.KeyUserID)
 	userIDInt := uint64(userID.(float64))
-	userDTO, err := us.srv.Get(ctx, userIDInt)
+	userDTO, err := us.sf.User().Get(ctx, userIDInt)
 	if err != nil {
 		core.WriteResponse(ctx, err, nil)
 		return
@@ -38,7 +38,7 @@ func (us *userServer) UpdateUser(ctx *gin.Context) {
 	userDTO.Gender = updateForm.Gender
 	userDTO.Birthday = jtime.Time{birthday}
 	//TODO 修改时add_time插入空值报错
-	err = us.srv.Update(ctx, userDTO)
+	err = us.sf.User().Update(ctx, userDTO)
 	if err != nil {
 		core.WriteResponse(ctx, err, nil)
 		return

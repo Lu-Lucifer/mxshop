@@ -91,11 +91,11 @@ func (g *goods) Search(ctx context.Context, req *v1.GoodsFilterRequest) (*do.Goo
 	switch {
 	case req.PagePerNums > 100:
 		req.PagePerNums = 100
-	case req.PagePerNums < 0:
+	case req.PagePerNums <= 0:
 		req.PagePerNums = 10
 	}
 
-	res, err := g.esClient.Search().Index(do.GoodsSearchDO{}.GetIndexName()).Query(q).From(int(req.Pages) * int(req.PagePerNums)).Size(int(req.PagePerNums)).Do(ctx)
+	res, err := g.esClient.Search().Index(do.GoodsSearchDO{}.GetIndexName()).Query(q).From(int(req.Pages-1) * int(req.PagePerNums)).Size(int(req.PagePerNums)).Do(ctx)
 	if err != nil {
 		return nil, err
 	}

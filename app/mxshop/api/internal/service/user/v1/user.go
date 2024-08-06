@@ -29,13 +29,13 @@ type UserSrv interface {
 }
 
 type userService struct {
-	ud      data.UserData
+	ud      data.DataFactory
 	jwtOpts *options.JwtOptions
 }
 
-func NewUserService(ud data.UserData, jwtOpts *options.JwtOptions) *userService {
+func NewUserService(data data.DataFactory, jwtOpts *options.JwtOptions) UserSrv {
 	return &userService{
-		ud:      ud,
+		ud:      data,
 		jwtOpts: jwtOpts,
 	}
 }
@@ -43,12 +43,12 @@ func NewUserService(ud data.UserData, jwtOpts *options.JwtOptions) *userService 
 var _ UserSrv = &userService{}
 
 func (u *userService) MobileLogin(ctx context.Context, mobile, password string) (*UserDTO, error) {
-	user, err := u.ud.GetByMobile(ctx, mobile)
+	user, err := u.ud.User().GetByMobile(ctx, mobile)
 	if err != nil {
 		return nil, err
 	}
 	//检查密码是否正确
-	err = u.ud.CheckPassWord(ctx, password, user.PassWord)
+	err = u.ud.User().CheckPassWord(ctx, password, user.PassWord)
 	if err != nil {
 		return nil, err
 	}
@@ -92,7 +92,7 @@ func (u *userService) Register(ctx context.Context, mobile, password, codes stri
 		Mobile:   mobile,
 		PassWord: password,
 	}
-	err = u.ud.Create(ctx, user)
+	err = u.ud.User().Create(ctx, user)
 	if err != nil {
 		log.Errorf("user register failed: %v", err)
 		return nil, err
@@ -121,7 +121,7 @@ func (u *userService) Register(ctx context.Context, mobile, password, codes stri
 }
 
 func (u *userService) Update(ctx context.Context, uerDTO *UserDTO) error {
-	err := u.ud.Update(ctx, &data.User{
+	err := u.ud.User().Update(ctx, &data.User{
 		ID:       uerDTO.ID,
 		NickName: uerDTO.NickName,
 		Birthday: uerDTO.Birthday,
@@ -134,7 +134,7 @@ func (u *userService) Update(ctx context.Context, uerDTO *UserDTO) error {
 }
 
 func (u *userService) Get(ctx context.Context, userID uint64) (*UserDTO, error) {
-	user, err := u.ud.Get(ctx, userID)
+	user, err := u.ud.User().Get(ctx, userID)
 	if err != nil {
 		return nil, err
 	}
@@ -144,7 +144,7 @@ func (u *userService) Get(ctx context.Context, userID uint64) (*UserDTO, error) 
 }
 
 func (u *userService) GetByMobile(ctx context.Context, mobile string) (*UserDTO, error) {
-	user, err := u.ud.GetByMobile(ctx, mobile)
+	user, err := u.ud.User().GetByMobile(ctx, mobile)
 	if err != nil {
 		return nil, err
 	}

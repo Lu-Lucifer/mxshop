@@ -3,6 +3,7 @@ package v1
 import (
 	"github.com/gin-gonic/gin"
 	ut "github.com/go-playground/universal-translator"
+	"mxshop/app/mxshop/api/internal/service"
 	"mxshop/app/mxshop/api/internal/service/sms/v1"
 	"mxshop/app/pkg/code"
 	gin2 "mxshop/app/pkg/translator/gin"
@@ -13,12 +14,12 @@ import (
 )
 
 type SmsController struct {
-	srv   sms.SmsSrv
+	sf    service.ServiceFactory
 	trans ut.Translator
 }
 
-func NewSmsController(srv sms.SmsSrv, trans ut.Translator) *SmsController {
-	return &SmsController{srv, trans}
+func NewSmsController(sf service.ServiceFactory, trans ut.Translator) *SmsController {
+	return &SmsController{sf, trans}
 }
 
 type SendSmsForm struct {
@@ -34,7 +35,7 @@ func (sc *SmsController) SendSms(ctx *gin.Context) {
 		return
 	}
 	smsCode := sms.GenerateSmsCode(6)
-	err := sc.srv.SendSms(ctx, sendSmsForm.Mobile, "SMS_154950909", "{\"code\":"+smsCode+"}")
+	err := sc.sf.Sms().SendSms(ctx, sendSmsForm.Mobile, "SMS_154950909", "{\"code\":"+smsCode+"}")
 	if err != nil {
 		core.WriteResponse(ctx, errors.WithCode(code.ErrSmsSend, err.Error()), nil)
 		return

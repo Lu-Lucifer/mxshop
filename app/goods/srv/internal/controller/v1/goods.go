@@ -7,6 +7,7 @@ import (
 	"mxshop/app/goods/srv/internal/domain/dto"
 	v1 "mxshop/app/goods/srv/internal/service/v1"
 	v12 "mxshop/pkg/common/meta/v1"
+	"mxshop/pkg/log"
 )
 
 type goodsServer struct {
@@ -55,6 +56,7 @@ func ModelToResponse(goods *dto.GoodsDTO) *proto.GoodsInfoResponse {
 }
 
 func (gs *goodsServer) GoodsList(ctx context.Context, request *proto.GoodsFilterRequest) (*proto.GoodsListResponse, error) {
+	log.Debug("GoodsList is called")
 	opts := v12.ListMeta{
 		Page:     int(request.Pages),
 		PageSize: int(request.PagePerNums),
@@ -73,8 +75,19 @@ func (gs *goodsServer) GoodsList(ctx context.Context, request *proto.GoodsFilter
 }
 
 func (gs *goodsServer) BatchGetGoods(ctx context.Context, info *proto.BatchGoodsIdInfo) (*proto.GoodsListResponse, error) {
-	//TODO implement me
-	panic("implement me")
+	var ids []uint64
+	for _, id := range info.Id {
+		ids = append(ids, uint64(id))
+	}
+	get, err := gs.srv.Goods().BatchGet(ctx, ids)
+	if err != nil {
+		return nil, err
+	}
+	var ret proto.GoodsListResponse
+	for _, item := range get {
+		ret.Data = append(ret.Data, ModelToResponse(item))
+	}
+	return &ret, nil
 }
 
 func (gs *goodsServer) CreateGoods(ctx context.Context, info *proto.CreateGoodsInfo) (*proto.GoodsInfoResponse, error) {

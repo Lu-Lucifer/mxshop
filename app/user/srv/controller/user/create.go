@@ -2,7 +2,6 @@ package user
 
 import (
 	"context"
-
 	upbv1 "mxshop/api/user/v1"
 	v12 "mxshop/app/user/srv/data/v1"
 	v1 "mxshop/app/user/srv/service/v1"

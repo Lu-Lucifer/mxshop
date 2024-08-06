@@ -59,7 +59,6 @@ func newGoods(srv *service) *goodsService {
 		data:       srv.data,
 		searchData: srv.dataSearch,
 	}
-
 }
 
 // 使用工厂模式
@@ -112,6 +111,7 @@ func (gs *goodsService) List(ctx context.Context, opts metav1.ListMeta, req *pro
 		log.Errorf("searchData.Search err: %v", err)
 		return nil, err
 	}
+	log.Debugf("search es data: %v", goodsList)
 	// 用从es中搜索的商品，提取出ids，然后去数据库中查询出这些商品
 	goodsIDs := []uint64{}
 	for _, value := range goodsList.Items {
@@ -225,11 +225,13 @@ func (gs *goodsService) BatchGet(ctx context.Context, ids []uint64) ([]*dto.Good
 	//第二中方案：使用go-zero的mapreduce来处理并发跳用
 	var fns []func() error
 	var ret []*dto.GoodsDTO
-	var mu sync.Locker
+	var mu sync.Mutex
 	for _, id := range ids {
+		//大坑，循环会替换变量id，采用临时变量tmp
+		tmp := id
 		fns = append(fns, func() error {
 			//调用自己内部的get方法处理
-			goodsDTO, err := gs.Get(ctx, id)
+			goodsDTO, err := gs.Get(ctx, tmp)
 			//多个goroutine执行时，切片，map都是线程不安全的，要加锁；或者用sync map处理
 			mu.Lock()
 			ret = append(ret, goodsDTO)

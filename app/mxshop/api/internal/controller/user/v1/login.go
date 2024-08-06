@@ -35,7 +35,7 @@ func (us *userServer) Login(ctx *gin.Context) {
 		return
 	}
 
-	userDTO, err := us.srv.MobileLogin(ctx, passwordLoginForm.Mobile, passwordLoginForm.Password)
+	userDTO, err := us.sf.User().MobileLogin(ctx, passwordLoginForm.Mobile, passwordLoginForm.Password)
 	if err != nil {
 		ctx.JSON(http.StatusInternalServerError, gin.H{
 			"msg": "登录失败",

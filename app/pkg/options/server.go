@@ -6,8 +6,6 @@ type ServerOptions struct {
 	//是否开启pprof
 	EnableProfiling bool `json:"profiling"      mapstructure:"profiling"`
 
-	EnableLimit bool `json:"limit"      mapstructure:"limit"`
-
 	//是否开启metrics
 	EnableMetrics bool `json:"enable-metrics" mapstructure:"enable-metrics"`
 
@@ -28,6 +26,8 @@ type ServerOptions struct {
 
 	//中间件
 	Middlewares []string `json:"middlewares,omitempty"                 mapstructure:"middlewares"`
+	//是否开启限流
+	EnableLimit bool `json:"limit"      mapstructure:"limit"`
 }
 
 // NewServerOptions create a `zero` value instance.
@@ -40,6 +40,7 @@ func NewServerOptions() *ServerOptions {
 		Port:              8078,
 		HttpPort:          8079,
 		Name:              "mxshop-user-srv",
+		EnableLimit:       true,
 	}
 }
 

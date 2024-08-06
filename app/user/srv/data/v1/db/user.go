@@ -31,7 +31,7 @@ var _ dv1.UserStore = &users{}
 //	@param opts
 //	@return *dv1.UserDOList
 //	@return error
-func (u users) List(ctx context.Context, orderby []string, opts metav1.ListMeta) (*dv1.UserDOList, error) {
+func (u *users) List(ctx context.Context, orderby []string, opts metav1.ListMeta) (*dv1.UserDOList, error) {
 	ret := dv1.UserDOList{}
 	var limit, offset int
 	if opts.PageSize == 0 {
@@ -62,7 +62,7 @@ func (u users) List(ctx context.Context, orderby []string, opts metav1.ListMeta)
 //	@param mobile
 //	@return *dv1.UserDO
 //	@return error
-func (u users) GetByMobile(ctx context.Context, mobile string) (*dv1.UserDO, error) {
+func (u *users) GetByMobile(ctx context.Context, mobile string) (*dv1.UserDO, error) {
 	user := dv1.UserDO{}
 	err := u.db.Where("mobile =?", mobile).First(&user).Error
 	// err是gorm的err，这种error不建议往上抛
@@ -83,7 +83,7 @@ func (u users) GetByMobile(ctx context.Context, mobile string) (*dv1.UserDO, err
 //	@param id
 //	@return *dv1.UserDO
 //	@return error
-func (u users) GetByID(ctx context.Context, id uint64) (*dv1.UserDO, error) {
+func (u *users) GetByID(ctx context.Context, id uint64) (*dv1.UserDO, error) {
 	user := dv1.UserDO{}
 	err := u.db.First(&user, id).Error
 	// err是gorm的err，这种error不建议往上抛
@@ -103,7 +103,7 @@ func (u users) GetByID(ctx context.Context, id uint64) (*dv1.UserDO, error) {
 //	@param ctx
 //	@param user
 //	@return error
-func (u users) Create(ctx context.Context, user *dv1.UserDO) error {
+func (u *users) Create(ctx context.Context, user *dv1.UserDO) error {
 	tx := u.db.Create(user)
 	if tx.Error != nil {
 		return errors.WithCode(code2.ErrDatabase, tx.Error.Error())
@@ -112,7 +112,7 @@ func (u users) Create(ctx context.Context, user *dv1.UserDO) error {
 
 }
 
-func (u users) Update(ctx context.Context, user *dv1.UserDO) error {
+func (u *users) Update(ctx context.Context, user *dv1.UserDO) error {
 	tx := u.db.Save(user)
 	if tx.Error != nil {
 		return errors.WithCode(code2.ErrDatabase, tx.Error.Error())

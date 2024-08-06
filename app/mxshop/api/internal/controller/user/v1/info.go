@@ -9,7 +9,7 @@ import (
 func (us *userServer) GetUserDetail(ctx *gin.Context) {
 	//获取jwt中间件中设置的userid
 	userID, _ := ctx.Get(middlewares.KeyUserID)
-	userDTO, err := us.srv.Get(ctx, uint64(userID.(float64)))
+	userDTO, err := us.sf.User().Get(ctx, uint64(userID.(float64)))
 	if err != nil {
 		core.WriteResponse(ctx, err, nil)
 		return

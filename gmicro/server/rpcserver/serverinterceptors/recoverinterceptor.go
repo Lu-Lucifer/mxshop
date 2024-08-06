@@ -2,12 +2,11 @@ package serverinterceptors
 
 import (
 	"context"
-	"runtime/debug"
-
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"mxshop/pkg/log"
+	"runtime/debug"
 )
 
 // StreamRecoverInterceptor catches panics in processing stream requests and recovers.

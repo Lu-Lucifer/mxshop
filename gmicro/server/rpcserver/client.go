@@ -137,5 +137,6 @@ func dial(ctx context.Context, insecure bool, opts ...ClientOption) (*grpc.Clien
 		grpcOpts = append(grpcOpts, options.rpcOpts...)
 	}
 	return grpc.DialContext(ctx, options.endpoint, grpcOpts...)
+	//return grpc.NewClient(options.endpoint,grpcOpts...)
 
 }

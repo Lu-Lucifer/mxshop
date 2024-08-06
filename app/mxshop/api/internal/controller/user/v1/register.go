@@ -21,7 +21,7 @@ func (us *userServer) Register(ctx *gin.Context) {
 	}
 
 	//短信验证码校验
-	userDTO, err := us.srv.Register(ctx, registerForm.Mobile, registerForm.Password, registerForm.Code)
+	userDTO, err := us.sf.User().Register(ctx, registerForm.Mobile, registerForm.Password, registerForm.Code)
 	if err != nil {
 		core.WriteResponse(ctx, err, nil)
 		return

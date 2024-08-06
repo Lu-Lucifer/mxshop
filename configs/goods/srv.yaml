@@ -15,7 +15,7 @@ registry:
 
 server:
   name: mxshop-goods-srv #服务名，注册到consul使用的名称
-  host: 192.168.0.103 #host, 默认使用 0.0.0.0
+  host: 192.168.0.101 #host, 默认使用 0.0.0.0
   port: 8051 # grpc 安全模式的端口号，默认 8081
 
 telemetry:

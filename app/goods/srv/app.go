@@ -37,7 +37,7 @@ func run(cfg *config.Config) app.RunFunc {
 		}
 		//启动
 		if err := goodsApp.Run(); err != nil {
-			log.Errorf("run user app error: %s", err)
+			log.Errorf("run goods app error: %s", err)
 		}
 		return nil
 	}

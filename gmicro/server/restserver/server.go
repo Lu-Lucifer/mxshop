@@ -81,6 +81,7 @@ func (s *Server) Start(ctx context.Context) error {
 		log.Infof("%-6s %-s --> %s(%d handlers)", httpMethod, absolutePath, handlerName, nuHandlers)
 	}
 
+	//初始化翻译器
 	err := s.InitTrans(s.transName)
 	if err != nil {
 		log.Errorf("initTrans error: %s", err.Error())

@@ -4,11 +4,15 @@ import (
 	"fmt"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
+	"log"
 	v1 "mxshop/app/goods/srv/internal/data/v1"
 	"mxshop/app/pkg/code"
 	"mxshop/app/pkg/options"
 	"mxshop/pkg/errors"
+	"os"
 	"sync"
+	"time"
 )
 
 /*
@@ -74,8 +78,18 @@ func GetDBFactoryOr(mysqlOpts *options.MySQLOptions) (v1.DataFactory, error) {
 			mysqlOpts.Port,
 			mysqlOpts.Database,
 		)
+		newLogger := logger.New(
+			log.New(os.Stdout, "\r\n", log.LstdFlags), // io writer
+			logger.Config{
+				SlowThreshold:             time.Second, // Slow SQL threshold
+				LogLevel:                  logger.Info, // Log level
+				IgnoreRecordNotFoundError: true,        // Ignore ErrRecordNotFound error for logger
+				ParameterizedQueries:      true,        // Don't include params in the SQL log
+				Colorful:                  false,       // Disable color
+			},
+		)
 
-		db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
+		db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{Logger: newLogger})
 		if err != nil {
 			return
 		}
