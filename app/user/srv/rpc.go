@@ -1,12 +1,14 @@
 package srv
 
 import (
+	"context"
 	"fmt"
 	"github.com/alibaba/sentinel-golang/ext/datasource"
 	"github.com/alibaba/sentinel-golang/pkg/adapters/grpc"
 	"github.com/alibaba/sentinel-golang/pkg/datasource/nacos"
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"
+	"go.opentelemetry.io/otel"
 	upb "mxshop/api/user/v1"
 	"mxshop/app/pkg/options"
 	"mxshop/app/user/srv/config"
@@ -16,6 +18,7 @@ import (
 	"mxshop/gmicro/core/trace"
 	"mxshop/gmicro/server/rpcserver"
 	"mxshop/pkg/log"
+	"time"
 )
 
 func NewNacosDataSource(opts *options.NacosOptions) (*nacos.NacosDataSource, error) {
@@ -56,11 +59,17 @@ func NewUserRPCServer(cfg *config.Config) (*rpcserver.Server, error) {
 		Sampler:  cfg.Telemetry.Sampler,
 		Batcher:  cfg.Telemetry.Batcher,
 	})
+
+	//telemetry使用
+	tr := otel.Tracer("mxshop-user-service")
+	spanCtx, span := tr.Start(context.Background(), "GetDBFactoryOr")
 	//初始化db
+
 	gormDB, err := db.GetDBFactoryOr(cfg.MySQLOptions)
 	if err != nil {
 		log.Fatal(err.Error())
 	}
+	span.End()
 
 	//构造一个userServer结构体对象
 	data := db.NewUsers(gormDB)
@@ -83,8 +92,15 @@ func NewUserRPCServer(cfg *config.Config) (*rpcserver.Server, error) {
 			return nil, err
 		}
 	}
-
+	//telemetry使用
+	_, newServerspan := tr.Start(spanCtx, "NewServer")
 	urpcServer := rpcserver.NewServer(opts...)
 	upb.RegisterUserServer(urpcServer.Server, userver)
+	newServerspan.End()
+
+	//telemetry使用
+	_, mockServerSpan := tr.Start(spanCtx, "mockServer")
+	time.Sleep(time.Millisecond * 300)
+	mockServerSpan.End()
 	return urpcServer, nil
 }
